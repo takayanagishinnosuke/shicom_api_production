@@ -103,4 +103,3 @@ print(key)
 cam.release() ##cam.releseで終了
 cv2.destroyAllWindows() ##メモリの解放
 
-
