@@ -1,4 +1,8 @@
 libgl1
+libsm6
+libxrender1
+libfontconfig1
+libice6
 
 # you can list packages
 libexample-dev
