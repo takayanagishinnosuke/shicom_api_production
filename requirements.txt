@@ -5,6 +5,7 @@ idna==3.3
 importlib-resources==5.7.1
 numpy==1.22.3
 opencv-python--headless
+opencv-contrib-python
 requests==2.27.1
 traitlets==5.1.1
 urllib3==1.26.9
