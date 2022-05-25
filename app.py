@@ -10,6 +10,7 @@ import cv2
 import recognition 
 
 
+
 img_gray =[] #np配列入れるリストを用意
 
 app = Flask(__name__)

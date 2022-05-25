@@ -3,7 +3,6 @@ import numpy as np
 import os
 import telcoll
 
-
 def recognition(post):
   recognizer = cv2.face.LBPHFaceRecognizer_create()
   recognizer.read("trainer_custom.yml")
