@@ -26,12 +26,12 @@ def recognition(post):
   im = post
   print(im)
 
-  ##---ビデオ確認用---##
-  # while True:
-  #   ret, ims = cap.read()
-  #   im = cv2.cvtColor(ims, cv2.COLOR_BGR2GRAY)
+  #---ビデオ確認用---##
+# while True:
+#   ret, ims = cap.read()
+#   im = cv2.cvtColor(ims, cv2.COLOR_BGR2GRAY)
 
-  #   cv2.imshow('video', im)
+#   cv2.imshow('video', im)
 
   
     
@@ -49,7 +49,7 @@ def recognition(post):
   faces = faceCascade.detectMultiScale( 
         im,
         scaleFactor = 1.11,
-        minNeighbors = 4,
+        minNeighbors = 5,
         minSize=(50,50)
   )
 
