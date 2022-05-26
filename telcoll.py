@@ -3,7 +3,6 @@ from twilio.rest import Client
 import time
 
 
-
 def coll():
     account_sid = (os.environ['SID']) # 環境設定で書き換え
     auth_token  = (os.environ['TOKEN'])  # 環境設定で書き換え

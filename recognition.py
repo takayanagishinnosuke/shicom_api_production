@@ -33,8 +33,6 @@ def recognition(post):
 
 #   cv2.imshow('video', im)
 
-  
-    
   """人かそうでないか"""
   hog = cv2.HOGDescriptor() ##特徴量抽出
   hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector()) #SVMで分類
