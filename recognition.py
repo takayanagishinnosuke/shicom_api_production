@@ -60,11 +60,11 @@ def recognition(post):
   """最終判断"""
   if(result >=1 or len(faces) > 0):
     key = 'Danger'
-    if(id == 'mama' or id == 'papa') and confidence >= 20:
+    if(id == 'mama' or id == 'ikeda') and confidence >= 20:
       key = 'Super_Danger'
       telcoll.coll()
 
-  elif(id == 'mama' or id == 'papa') and confidence >= 20:
+  elif(id == 'mama' or id == 'ikeda') and confidence >= 20:
     key = 'Super_Danger'
     telcoll.coll()
 
